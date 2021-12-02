@@ -1,0 +1,30 @@
+{
+  "name": "crypto-com-node-api",
+  "version": "0.0.1",
+  "description": "API Connection to Crypto.com Exchange Platform",
+  "main": "index.js",
+  "directories": {
+    "test": "./index.js"
+  },
+  "exports": {
+    "import": "./wrapper.mjs",
+    "require": "./index.js"
+  },
+  "scripts": {
+    "test": "nodemon ./sample/user-market.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelSzekeres/crypto-com-node-api.git"
+  },
+  "keywords": [],
+  "author": "Michel Szekeres <szekeresmichel@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichelSzekeres/crypto-com-node-api/issues"
+  },
+  "homepage": "https://github.com/MichelSzekeres/crypto-com-node-api#readme",
+  "dependencies": {
+    "ws": "^8.3.0"
+  }
+}
