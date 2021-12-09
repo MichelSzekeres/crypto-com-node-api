@@ -1,7 +1,7 @@
 # Crypto.com Exchange API Client for NodeJS
 Easy to use API connector package to speed up your development in connecting Crypto.com Exchange platform.
 
-Both ES5 and ES6 is supported by the package.
+Both ES5 and ES6 are supported by the package.
 
 ES5
 ```
