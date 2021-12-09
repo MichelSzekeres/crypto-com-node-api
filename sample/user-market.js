@@ -1,5 +1,4 @@
-var { CryptoComMarket } = require('../index');
+var { CryptoComMarket, CryptoComUser} = require('../index');
 
-var CryptoCom = new CryptoComMarket();
-
-CryptoCom.user()
+var market = new CryptoComMarket();
+var user = new CryptoComUser({});
