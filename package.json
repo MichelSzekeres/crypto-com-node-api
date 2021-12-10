@@ -1,6 +1,6 @@
 {
   "name": "crypto-com-node-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "API Connection to Crypto.com Exchange Platform",
   "main": "index.js",
   "directories": {
