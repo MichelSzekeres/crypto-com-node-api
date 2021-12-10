@@ -20,7 +20,7 @@ const user = new CryptoComUser();
 
 | Functions | CryptoComMarket | CryptoComUser | Sample |
 | :---: | :---: | :---: | :---:
-| .book() | - [x] YES| - [ ] NO | [./sample/market-book.js](https://github.com/MichelSzekeres/crypto-com-node-api/blob/main/sample/market-book.js)
+| .book() | :heavy_check_mark: YES| - [ ] NO | [./sample/market-book.js](https://github.com/MichelSzekeres/crypto-com-node-api/blob/main/sample/market-book.js)
 | .ticker() | - [x] YES | - [ ] NO | coming soon
 | .trade() | - [x] YES | - [ ] NO | coming soon
 | .candlestick() | - [x] YES | - [ ] NO | coming soon
