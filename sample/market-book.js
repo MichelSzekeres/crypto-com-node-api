@@ -1,4 +1,4 @@
-const { CryptoComMarket } = require('../index');
+const { CryptoComMarket } = require('../index'); //replace '../index' -> 'crypto-com-node-api'
 
 const market = new CryptoComMarket();
 
