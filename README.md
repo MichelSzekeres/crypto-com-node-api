@@ -26,4 +26,4 @@ Please check out the sample to explore the package capabilities.
 | .trade() | :heavy_check_mark: | :heavy_minus_sign: | [./sample/market-trade.js](https://github.com/MichelSzekeres/crypto-com-node-api/blob/main/sample/market-trade.js)
 | .candlestick() | :heavy_check_mark: | :heavy_minus_sign: | [./sample/market-candlestick.js](https://github.com/MichelSzekeres/crypto-com-node-api/blob/main/sample/market-candlestick.js)
 
-📧 :email: [Michel Szekeres](mail:szekeresmichel@hotmail.com)
+:email: [Michel Szekeres](mailto: szekeresmichel@hotmail.com)
