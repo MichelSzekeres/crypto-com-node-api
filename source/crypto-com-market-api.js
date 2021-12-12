@@ -90,6 +90,25 @@ class CryptoComMarket{
         });
     }
 
+    ticker(instrument){
+        
+        this.on('connect', () => {
+            this.id = this.id + 1;
+            setTimeout(() =>{
+                this.socket.send(`{"id": ${this.id},"method": "subscribe","params": {"channels": ["ticker.${instrument}"]},"nonce": ${new Date().getTime()}}`)
+            },this.id * 5000);
+        });
+    
+        this.duplex.on('data',(data)=>{     
+            let data2 = JSON.parse(new Object(data).toString());
+    
+            let result = data2.result?.data[0];
+            if(data2.result?.subscription == `ticker.${instrument}`){
+                this.emit(`ticker.${instrument}`, result);
+            }
+        });
+    }
+
 }
 
 

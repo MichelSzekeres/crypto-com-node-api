@@ -1,11 +1,10 @@
-const { CryptoComMarket } = require('../index');
+const { CryptoComMarket } = require('../index');  //replace '../index' -> 'crypto-com-node-api'
 
 const market = new CryptoComMarket();
 
-market.book('BTC_USDT', 10)
+//Subscription make sure that there is only one subscription 
+market.book('BTC_USDT', 10) //[10 and 150 are suported as second value ]
 
 market.on('book.BTC_USDT.10',(data)=>{
-    // data.asks[0] - returns only the highest [value,amount,number of bits]
-    
-    console.log(data)
+    console.log(data)  //asks and bids avalable inside
 })
