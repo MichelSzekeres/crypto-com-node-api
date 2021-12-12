@@ -17,6 +17,7 @@ import { CryptoComMarket, CryptoComUser } from 'crypto-com-node-api';
 const market = new CryptoComMarket();
 const user = new CryptoComUser();
 ````
+Please check out the sample to explore the package capabilities.
 
 | Functions | CryptoComMarket | CryptoComUser | Sample | 
 | :---: | :---: | :---: | :---:
