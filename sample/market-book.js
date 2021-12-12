@@ -7,4 +7,4 @@ market.book('BTC_USDT', 10) //[10 and 150 are suported as second value ]
 
 market.on('book.BTC_USDT.10',(data)=>{
     console.log(data)  //asks and bids avalable inside
-})
+});
