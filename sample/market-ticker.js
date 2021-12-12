@@ -1,10 +1,11 @@
-const { CryptoComMarket } = require('crypto-com-node-api');
+const { CryptoComMarket } = require('../index'); //replace '../index' -> 'crypto-com-node-api'
+
 const market = new CryptoComMarket();
 
-market.ticker('BTC_USDT');
+//Subscription make sure that there is only one subscription, data every 100ms
+market.ticker('BTC_USDT'); //specify pair
 
 market.on('ticker.BTC_USDT', (data)=>{
-    console.log(data);
     data.h // Price of the 24h highest trade
     data.v // The total 24h traded volume
     data.a // The price of the latest trade, null if there weren't any trades
@@ -13,4 +14,4 @@ market.on('ticker.BTC_USDT', (data)=>{
     data.k // The current best ask price, null if there aren't any asks
     data.c // 24-hour price change, null if there weren't any trades
     data.t // update time
-})
+});

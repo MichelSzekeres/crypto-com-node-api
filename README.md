@@ -18,9 +18,9 @@ const market = new CryptoComMarket();
 const user = new CryptoComUser();
 ````
 
-| Functions | CryptoComMarket | CryptoComUser | Sample |
+| Functions | CryptoComMarket | CryptoComUser | Sample | 
 | :---: | :---: | :---: | :---:
 | .book() | :heavy_check_mark: | :heavy_minus_sign: | [./sample/market-book.js](https://github.com/MichelSzekeres/crypto-com-node-api/blob/main/sample/market-book.js)
 | .ticker() | :heavy_check_mark: | :heavy_minus_sign: | [./sample/market-ticker.js](https://github.com/MichelSzekeres/crypto-com-node-api/blob/main/sample/market-ticker.js)
-| .trade() | :heavy_check_mark: | :heavy_minus_sign: | coming soon
-| .candlestick() | :heavy_check_mark: | :heavy_minus_sign: | coming soon
+| .trade() | :heavy_check_mark: | :heavy_minus_sign: | [./sample/market-trade.js](https://github.com/MichelSzekeres/crypto-com-node-api/blob/main/sample/market-trade.js)
+| .candlestick() | :heavy_check_mark: | :heavy_minus_sign: | [./sample/market-candlestick.js](https://github.com/MichelSzekeres/crypto-com-node-api/blob/main/sample/market-candlestick.js)
